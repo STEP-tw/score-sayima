@@ -24,10 +24,16 @@
   background-color: blue;
   border-radius: 50%;
 }
+
 h3 {
   text-align: center;
 }
 
 p {
   text-align: center;
+}
+
+.super-food {
+  background-color: green;
+  border-radius: 50%;
 }
