@@ -2,7 +2,7 @@ let snake=undefined;
 let food=undefined;
 let numberOfRows=60;
 let numberOfCols=120;
-let game=new Game();
+let game=new Game(numberOfRows,numberOfCols);
 let animator=undefined;
 
 const animateSnake=function() {
