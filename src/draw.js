@@ -11,6 +11,13 @@ const drawGrids=function(numberOfRows,numberOfCols) {
   }
 }
 
+const showScore=function(score){
+  let p=document.getElementById('score');
+  p.removeChild(p.childNodes[0]);
+  let snakeScore=document.createTextNode(score);
+  p.appendChild(snakeScore);
+};
+
 const paintCell=function(pos,color) {
   let cell=document.getElementById(pos.getCoord().join("_"));
   if(cell)
